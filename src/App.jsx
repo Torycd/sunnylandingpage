@@ -1,8 +1,10 @@
-import './App.css'
+import FirstSection from "./components/FirstSection"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className="w-dvh">
+      <FirstSection/>
+    </div>
   )
 }
 
