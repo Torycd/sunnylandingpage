@@ -28,7 +28,7 @@ const FirstSection = () => {
 
       {/* menu for mobile */}
       {toggleButton && (
-        <div className="flex md:hidden absolute z-50 bg-white my-10 ">
+        <div className="md:hidden absolute z-50 bg-white my-10 ">
           <ul className="flex-col space-y-4 text-black text-center mb-10">
             <li className="self-center">About</li>
             <li className="self-center">Services</li>
