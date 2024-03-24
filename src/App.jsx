@@ -2,7 +2,7 @@ import FirstSection from "./components/FirstSection"
 
 const App = () => {
   return (
-    <div className="w-dvh">
+    <div className="w-scrren">
       <FirstSection/>
     </div>
   )
