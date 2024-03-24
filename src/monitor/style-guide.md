@@ -13,19 +13,24 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+- Here are the hex codes for the given HSL values:
+
+- Soft red: hsl(7, 99%, 70%) -> #f94d4d
+- Yellow: hsl(51, 100%, 49%) -> #ffd700
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%) -> #3a6f6f
+- Dark blue (photography text): hsl(198, 62%, 26%) -> #2c4f6d
+- Dark moderate cyan (footer): hsl(168, 34%, 41%) -> #4b7a7a
 
 ### Neutral
 
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
-- White: hsl(0, 0%, 100%)
+-Here are the hex codes for the additional HSL values:
+
+- Very dark desaturated blue: hsl(212, 27%, 19%) -> #1d2c4d
+- Very dark grayish blue: hsl(213, 9%, 39%) -> #4d5762
+- Dark grayish blue: hsl(232, 10%, 55%) -> #7b8791
+- Grayish blue: hsl(210, 4%, 67%) -> #aeb7bb
+- White: hsl(0, 0%, 100%) -> #ffffff
+
 
 ## Typography
 
