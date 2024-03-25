@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 import image1 from "../assets/desktop/image-header.jpg";
 import image2 from "../assets/mobile/image-header.jpg";
 
@@ -30,5 +32,9 @@ const ResponsiveBackground = ({ children }) => {
     </>
   );
 };
+
+ResponsiveBackground.propTypes = {
+  children: PropTypes.node.isRequired
+}
 
 export default ResponsiveBackground;
