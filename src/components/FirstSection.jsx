@@ -1,8 +1,11 @@
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
 
+import smallHeader from "../assets/mobile/image-header.jpg"
+import desktopHeader from "../assets/desktop/image-header.jpg"
+
 import CreativeComp from "./CreativeComp";
-import ResponsiveBackground from "../UI/ResponsiveBackground";
+
 
 const FirstSection = () => {
   const [toggleButton, setToggleButton] = useState(false);
@@ -10,7 +13,16 @@ const FirstSection = () => {
     setToggleButton(!toggleButton);
   }
   return (
-    <ResponsiveBackground>
+    <div
+      className={`px-10 py-5 text-white ${window.innerWidth >= 375 ? 'md:flex flex-col' : ''}`}
+      style={{
+        backgroundImage: `url(${window.innerWidth < 375 ? smallHeader : desktopHeader})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        height: '600px', // Set your desired height
+        width: '100%', // Set your desired width
+      }}
+    >
       <div className="w-full flex justify-between">
         <h2 className="text-2xl font-extrabold self-center">sunnyside</h2>
         <div className="hidden md:flex justify-between gap-20 font-bold text-xl">
@@ -31,15 +43,12 @@ const FirstSection = () => {
           <FaBars onClick={toogleMenu} />
         </div>
       </div>
-      <CreativeComp/>
-
       {/* menu for mobile */}
-
       <div
         className={
           !toggleButton
             ? "hidden"
-            : "md:hidden font-bold absolute inset-x-0 w-full z-50 px-4 py-8 bg-white my-10 text-xl "
+            : "md:hidden absolute font-bold  inset-x-0 w-full z-50 px-4 py-8 bg-white my-10 text-xl "
         }
       >
         <ul className="flex-col space-y-8 text-black text-center mb-10 opacity-50">
@@ -53,7 +62,9 @@ const FirstSection = () => {
           </button>
         </div>
       </div>
-    </ResponsiveBackground>
+      <CreativeComp/>
+    </div>
+    
   );
 };
 

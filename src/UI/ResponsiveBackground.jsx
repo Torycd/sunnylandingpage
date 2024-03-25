@@ -7,7 +7,7 @@ const ResponsiveBackground = ({ children }) => {
   return (
     <>
       <div
-        className="hidden md:flex flex-col fixed overflow-auto inset-0 px-10 py-5 text-white"
+        className="hidden md:flex flex-col  overflow-auto inset-0 px-10 py-5 text-white"
         style={{
           backgroundImage: `url(${image1})`,
           backgroundSize: "100% auto",
@@ -19,7 +19,7 @@ const ResponsiveBackground = ({ children }) => {
       </div>
 
       <div
-        className="md:hidden flex flex-col fixed overflow-auto inset-0 text-white px-10 py-5"
+        className="md:hidden flex flex-col  overflow-auto inset-0 text-white px-10 py-5"
         style={{
           backgroundImage: `url(${image2})`,
           backgroundSize: "contain",
