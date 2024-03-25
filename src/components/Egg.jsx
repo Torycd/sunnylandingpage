@@ -1,4 +1,3 @@
-// import React from 'react'
 
 import desktopImage from "../assets/desktop/image-transform.jpg";
 import mobileImage from "../assets/mobile/image-transform.jpg";
