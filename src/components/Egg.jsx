@@ -5,7 +5,7 @@ import mobileImage from "../assets/mobile/image-transform.jpg";
 
 const Egg = () => {
   return (
-    <div className="grid md:grid-cols-2">
+    <div className="grid md:grid-cols-2 font-New2">
       <div className="bg-white p-10 md:p-28 space-y-4 md:space-y-12">
         <div className="text-center md:text-left text-3xl md:text-[3rem] font-extrabold space-y-4">
           <h2>Transform your</h2>

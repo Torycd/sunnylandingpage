@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         New: ["Barlow"],
+        New2: ['Fraunces']
       },
     },
   },

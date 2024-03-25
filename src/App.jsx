@@ -3,7 +3,7 @@ import FirstSection from "./components/FirstSection"
 
 const App = () => {
   return (
-    <div className="w-scrren font-New">
+    <div className="w-scrren">
       <FirstSection/>
       <Egg/>
     </div>
