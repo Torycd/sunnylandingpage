@@ -11,21 +11,16 @@ const Egg = () => {
           <h2>Transform your</h2>
           <h2>brand</h2>
         </div>
-
-        <p className="font-bold text-xl opacity-50">
+        <p className="font-bold text-xl opacity-50 text-center md:text-left">
           We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
-        <button
-          className="font-bold text-xl"
-          style={{
-            textDecorationColor: "yellow",
-            textDecorationLine: "underline",
-          }}
-        >
-          Learn more
-        </button>
+        <div className="flex justify-center md:justify-start">
+          <button className="font-bold text-xl underline decoration-yellow-500">
+            Learn more
+          </button>
+        </div>
       </div>
       {/* Egg Image */}
       <div className="md:w-[50%]">
