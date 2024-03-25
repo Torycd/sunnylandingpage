@@ -1,3 +1,4 @@
+import Cup from "./components/Cup"
 import Egg from "./components/Egg"
 import FirstSection from "./components/FirstSection"
 
@@ -6,6 +7,7 @@ const App = () => {
     <div className="w-scrren">
       <FirstSection/>
       <Egg/>
+      <Cup/>
     </div>
   )
 }

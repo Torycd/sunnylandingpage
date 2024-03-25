@@ -5,7 +5,7 @@ import mobileImage from "../assets/mobile/image-transform.jpg";
 const Egg = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row font-New2">
-      <div className="bg-white p-10 md:w-[50%] md:p-28 space-y-4 md:space-y-12">
+      <div className="bg-white p-10 md:w-[50%] md:p-16 space-y-4 md:space-y-12">
         <div className="text-center md:text-left text-3xl md:text-[3rem] font-extrabold space-y-4">
           <h2>Transform your</h2>
           <h2>brand</h2>
@@ -25,9 +25,10 @@ const Egg = () => {
       <div className="md:w-[50%]">
         {/* for desktop */}
         <img
-          className="hidden md:block w-[100%] h-[600px]"
+          className="hidden md:block w-[100%] h-[500px]"
           src={desktopImage}
         />
+        {/* for mobile */}
         <img className=" md:hidden w-[100%]" src={mobileImage} />
       </div>
     </div>
