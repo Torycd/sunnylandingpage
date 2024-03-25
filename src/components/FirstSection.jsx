@@ -26,7 +26,7 @@ const FirstSection = () => {
       <div className="w-full flex justify-between">
         <h2 className="text-2xl font-extrabold self-center">sunnyside</h2>
         <div className="hidden md:flex justify-between gap-20 font-bold text-xl">
-          <ul className="flex justify-between space-x-4 ">
+          <ul className="flex justify-between space-x-4 opacity-90">
             <li className="self-center">About</li>
             <li className="self-center">Services</li>
             <li className="self-center">Projects</li>
